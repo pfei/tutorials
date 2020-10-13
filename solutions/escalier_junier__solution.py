@@ -39,5 +39,20 @@ bob.down()
 
 
 
+################################################################################
+def marche(h):
+    bob.left(90)
+    bob.forward(h)
+    bob.right(90)
+    bob.forward(h)
+
+def escalier(n, h):
+    for k in range(n):
+        marche(h)
+
+escalier(5, 50)
+
+################################################################################
+
 
 turtle.exitonclick()

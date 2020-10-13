@@ -2,10 +2,23 @@
 # https://www.mathweb.fr/euclide/2019/03/19/python-turtle-et-un-arbre-de-pythagore/
 # (modifié)
 
-from turtle import *
+
 import turtle
 import math
 from random import uniform
+
+from PIL import Image
+
+################################################################################
+def save_image(image_name):
+    turtle_screen = turtle.getscreen()
+    file_eps = image_name + ".eps"
+    turtle_screen.getcanvas().postscript(file=file_eps)
+    in_file = Image.open(file_eps)
+    file_jpg = file_eps.split('.')[0] + '.jpg'
+    in_file.save(file_jpg)
+################################################################################
+
 
 bob = turtle.Turtle()
 bob.speed(3)
@@ -48,3 +61,7 @@ bob.forward(100)
 bob.right(90)
 bob.pendown()
 tree(100,e1,e2,e3)
+
+save_image('arbre_de_pythagore')
+
+turtle.exitonclick()
