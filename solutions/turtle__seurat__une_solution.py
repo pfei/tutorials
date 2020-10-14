@@ -32,6 +32,6 @@ for y in range(height):
     seurat.forward(dot_distance)
     seurat.left(90)
 
-save_image('turtle_seurat')
+# save_image('turtle_seurat')
     
 turtle.done()
