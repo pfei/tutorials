@@ -2,7 +2,7 @@
 
 
 # dessiner une étoile à cinq branches comme celle ci: 
-# http://www.supercoloring.com/fr/coloriages/etoile-a-5-branches
+# https://github.com/pfei/tutorials/blob/main/images/une_etoile.png
 
 
 import turtle 

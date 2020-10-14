@@ -1,5 +1,8 @@
 
 
+# dessiner une étoile comme celle-ci
+# https://github.com/pfei/tutorials/blob/main/images/etoile_spirale.png
+
 import turtle 
 
 spiral = turtle.Turtle()
