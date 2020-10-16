@@ -17,6 +17,8 @@ height = 3
 
 seurat.penup()
 
+# remarque: pour tracer un point en python turtle, avec cette tortune nommmée seurat:
+# seurat.dot()
 
 for y in range(height):
     for i in range(width):
