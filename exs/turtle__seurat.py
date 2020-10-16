@@ -3,11 +3,6 @@
 # réaliser cette figure
 # https://github.com/pfei/tutorials/blob/main/images/turtle_seurat.jpg
 
-
-
-
-
-
 # https://michael0x2a.com/blog/turtle-examples
 # (modifié)
 
