@@ -1,6 +1,6 @@
 import turtle
 
-t = turtle.Turtle()
+t = turtle.Turtle
 t.pensize(3)
 
 for c in ['red', 'green', 'yellow', 'blue']:

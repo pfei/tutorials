@@ -8,7 +8,7 @@ import turtle
 import math
 
 t = turtle.Turtle()
-t.shape('triangle')
+t.shape('turtle')
 t.pencolor('blue')
 t.pensize(2)
 t.up()     
@@ -18,6 +18,17 @@ t.down()              #poser le crayon
 
 
 # solution simple, sans boucle, avec seulement quelques côtés
-cote = 100      # longueur des cotés, en pixels
+cote = 50     # longueur des cotés, en pixels
 t.left(180)     # demi-tour
 t.forward(cote)
+
+t.left(90)
+t.forward(cote)
+
+position = t.position()
+t.goto(0,0)
+t.goto(position)
+
+
+turtle.done()
+

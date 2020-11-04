@@ -7,7 +7,7 @@ import turtle
 
 star = turtle.Turtle()
 
-n = 12
+n = 7
 cote = 150
 
 if n%2 == 1: # c'est-à-dire si n est impair
