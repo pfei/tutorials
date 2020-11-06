@@ -23,7 +23,7 @@ height = 3
 
 seurat.penup()
 
-for y in range(height):
+for j in range(height):
     for i in range(width):
         seurat.dot()
         seurat.forward(dot_distance)
