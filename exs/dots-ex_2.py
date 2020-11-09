@@ -1,5 +1,8 @@
 
 
+# réaliser cette figure
+# https://github.com/pfei/tutorials/blob/main/images/dots-ex_2.png
+
 import turtle
 import time
 
